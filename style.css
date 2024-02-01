@@ -29,6 +29,7 @@ body {
   button:hover,
   button:focus {
     color: #966969;
+    background-color: red;
     background-color: #EBE0E0;
   }
   .inputs {
