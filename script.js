@@ -2,8 +2,6 @@ const textInput = document.getElementById("text-input");
 const button = document.getElementById("check-btn");
 const result = document.getElementById("result");
 
-
-
 function palindrome() {
   let str = textInput.value; 
   let regex = /[^a-z0-9]/gi;
@@ -17,15 +15,18 @@ function palindrome() {
 };
 
 
-button.addEventListener("click", click);
+
 
 function click() {
   if (!textInput.value) {
     alert("Please input a value");
   } else {
-    palindrome()
+    palindrome();
+    textInput.value = "";
   } 
 };
+
+button.addEventListener("click", click);
 
 
 
