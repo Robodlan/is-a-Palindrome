@@ -14,6 +14,10 @@ function palindrome() {
   : result.textContent = `${textInput.value} is not a palindrome` ;
 };
 
+function clear() {
+  result.textContent = "";
+}
+
 
 
 
@@ -23,8 +27,10 @@ function click() {
   } else {
     palindrome();
     textInput.value = "";
+    setTimeout(clear, 7000);
   } 
 };
+
 
 button.addEventListener("click", click);
 
