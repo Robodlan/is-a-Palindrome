@@ -1,49 +1,55 @@
 :root{
+  --xl-weigt: 700;
+  --l-weigt: 400;
+  --m-weigt: 300;
  --sm-weigt: 100;
- --m-weigt: 300;
- --l-weigt: 400;
- --xl-weigt: 700;
- --sm-size: 1.5rem;
+ --l-size: 2.7rem;
  --m-size: 1.8rem;
- --l-size: 2.2rem;
+ --sm-size: 1.5rem;
  --lightest-color: #ECEDF0;
  --md-color: #000036;
  --darkest-color: #1B172B;
  --yellow: #EEBE34;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: var(--darkest-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
   }
   h1 {
-    font-weight: var(--l-font);
+    font-size: var(--l-size);
+    font-weight: var(--xl-weigt);
     color: var(--yellow); 
-    /* border: 2px solid #fff; */
-   }
-  input, button {
-    margin-top: 2em;
-    text-align: center;
-    padding: 0.6em;
-    border: none;
-    margin: 0.5em;
-    border: 1px solid #966969;
-    border-radius: 7px;
+    text-align: center;    
+    align-self: auto;
+    margin-top: -1em;
   }
+
+   input {
+    /* padding: 0.2em; */
+    text-align: center;
+    font-size: var(--l-size);
+    border: none;
+    /* border-radius: 7px; */
+    width: 90%;
+  }
+
   button:hover,
   button:focus {
     color: #966969;
     background-color: #EBE0E0;
   }
   .inputs {
+    /* display: block; */
+    border: 2px   solid lightgreen;
+    text-align: center;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   #result {
@@ -53,18 +59,25 @@ body {
     color: var(--yellow);
   }
 
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: baseline; */
+    /* justify-content: space-between; */
     border: 1rem solid var(--yellow);
     border-radius: 10px;
     max-width: 500px;
     width: 50%;
-    margin-top: 5em;
+    margin-top: 10em;
     background-color: var();
     padding: 7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   }
   
