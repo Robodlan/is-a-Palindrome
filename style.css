@@ -6,16 +6,16 @@
  --sm-size: 1.5rem;
  --m-size: 1.8rem;
  --l-size: 2.2rem;
- --lightest-color: #839496;
- --md-color: #545E5F;
- --darkest-color: #252828;
- --blue-light: #BED8DA;
+ --lightest-color: #ECEDF0;
+ --md-color: #000036;
+ --darkest-color: #1B172B;
+ --yellow: #EEBE34;
 }
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--blue-light);
+    background-color: var(--darkest-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
   }
   h1 {
     font-weight: var(--l-font);
-    color: var(--blue-light); 
+    color: var(--yellow); 
     /* border: 2px solid #fff; */
    }
   input, button {
@@ -50,17 +50,17 @@ body {
     font-size: var(--l-size);
     font-weight: var(--l-font);
     text-align: center;
-    color: var(--blue-light);
+    color: var(--yellow);
   }
 
   .input-container {
-    /* border: 10px solid red; */
-    border-radius: 5px;
-    /* max-width: 500px; */
-    /* width: 100%; */
-    margin-top: 4em;
-    background-color: var(--md-color);
-    padding: 5rem;
+    border: 1rem solid var(--yellow);
+    border-radius: 10px;
+    max-width: 500px;
+    width: 50%;
+    margin-top: 5em;
+    background-color: var();
+    padding: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
