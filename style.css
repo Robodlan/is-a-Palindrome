@@ -40,7 +40,8 @@ body {
     font-size: var(--l-font);
     width: 50%;
     margin: 1em;
-    border-radius: 2px;
+    border-radius: 10px;
+    padding: 0.2em;
   }
 
   button:hover,
