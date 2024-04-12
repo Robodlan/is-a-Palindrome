@@ -36,6 +36,13 @@ body {
     width: 90%;
   }
 
+  button {
+    font-size: var(--l-font);
+    width: 50%;
+    margin: 1em;
+    border-radius: 2px;
+  }
+
   button:hover,
   button:focus {
     color: #966969;
