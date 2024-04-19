@@ -28,11 +28,11 @@ body {
   }
 
    input {
-    /* padding: 0.2em; */
+    padding: 0.2em;
     text-align: center;
     font-size: var(--l-size);
     border: none;
-    /* border-radius: 7px; */
+    border-radius: 7px;
     width: 90%;
   }
 
