@@ -51,6 +51,7 @@ body {
   button:focus {
     color:var(--yellow);
     background-color: var(--darkest-color);
+    box-shadow:rgba(0, 0, 0, 0.14) 1px 2px 5px, rgb(26, 0, 71) 1px 1px 1px 3px;
   }
   .inputs {
     /* display: block; */
