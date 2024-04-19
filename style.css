@@ -43,7 +43,7 @@ body {
     border-radius: 10px;
     padding: 1em;
     font-size: var(--sm-size);
-    font-weight: var(--xl-weigt);
+    font-weight: var(--m-weigt);
   }
 
   button:hover,
